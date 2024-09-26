@@ -20,14 +20,19 @@
 # After cloning the repo , we need to move to that repo
    --> cd repo_name
 
-# add(adds new or changed files in our working directory to the git staging area)
+# let's took an example, if you want to marry someone then you will first engaged with her then marry her. Here engagement refers to as "add"  and commit refers to as "marriage"
+
+
+# After changing anything in that repo in vs-code,we need to add first(adds new or changed files in our working directory to the git staging area)
    --> git add <--file name-->
 
     # we can add files separately,for that we need to write  git add <--file name--> for all the files separately
         or we can simply add all the changes via a single command   
           -->  git add .
 
-# After changing anything in that repo in vs-code, We need to commit that change in github
+# After adding ,  We need to commit that change in github(commit is the record of change)
+
+    -->git commit -m "some message"
 
 # After any change we can see the git status , And there we will see any changes made or anything
 
