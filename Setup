@@ -32,9 +32,12 @@
 
 # After adding ,  We need to commit that change in github(commit is the record of change)
 
-    -->git commit -m "some message"
+    --> git commit -m "some message"
 
 # After any change we can see the git status , And there we will see any changes made or anything
 
 # we can also make any new file in the vs code in that cloned repo, then if we check git status ,It will appear as untracked file
+
+# Although we have commited the changes in the command , It will not appear it the  github repo , To see all those thing we added in github repo we need to push all the things in the repo, (push-upload local repo content to remote repo)
+    --> git push origin main
 
