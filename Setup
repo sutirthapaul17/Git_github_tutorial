@@ -1,8 +1,35 @@
 
 #Configuring user information used across all local repositories
-               git config --global user.name “[firstname lastname]”
-#set a name that is identifiable for credit when review version history
-               git config --global user.email “[valid-email]”
-#set an email address that will be associated with each history marker
-               git config --global color.ui auto
-#set automatic command line coloring for Git for easy reviewing
+
+
+
+# set a name that is identifiable for credit when review version history
+   --> git config --global user.name “[firstname lastname]”
+# set an email address that will be associated with each history marker
+   --> git config --global user.email “[valid-email]”
+# set automatic command line coloring for Git for easy reviewing
+   --> git config --global color.ui auto
+
+# Check git status
+   --> git status
+
+# To take the github file in vs-code 
+    # 1.open vs code \t 2.open terminal in vs code  \t 3.go to that repo in github and then code of that repo and copy the url\t 4.Then come to vs-terminal and type
+       --> git clone <--link-->
+
+# After cloning the repo , we need to move to that repo
+   --> cd repo_name
+
+# add(adds new or changed files in our working directory to the git staging area)
+   --> git add <--file name-->
+
+    # we can add files separately,for that we need to write  git add <--file name--> for all the files separately
+        or we can simply add all the changes via a single command   
+          -->  git add .
+
+# After changing anything in that repo in vs-code, We need to commit that change in github
+
+# After any change we can see the git status , And there we will see any changes made or anything
+
+# we can also make any new file in the vs code in that cloned repo, then if we check git status ,It will appear as untracked file
+

@@ -1,0 +1,13 @@
+# We can have 4 types of file status
+
+# Untracked
+    New files that git doesn't yet track
+
+#modified
+    changed
+
+#Staged(we have added that file but not commited yet)
+    file is ready to be commited
+
+#unmodified(after commiting the changes all changes will be add)
+    unchanged
