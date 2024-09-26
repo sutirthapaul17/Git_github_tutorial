@@ -1,0 +1,10 @@
+# If I have any exiting folder in our local machine(laptop), I can push that folder to github via init
+
+init - used to create a new git repo
+
+    --> git init
+    --> git remote add origin <--link-->
+    --> git remote -v (to verify remote)
+    --> git branch (to check branch)
+    --> git branch -M main (to rename branch)
+    --> git push origin main
