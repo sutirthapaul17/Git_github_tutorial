@@ -2,7 +2,9 @@
 
 init - used to create a new git repo
 
-    --> git init
+   --> git init(to add local files to github)
+    --> git add .(to add all files of the folder to github)
+    --> git commit -m "first commit" (to add a message to the commit)
     --> git remote add origin <--link-->
     --> git remote -v (to verify remote)
     --> git branch (to check branch)
